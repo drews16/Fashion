@@ -1,0 +1,82 @@
+.banner {
+    background: linear-gradient(1.32deg, 
+        #E0C340 0.13%,#DFC23E 3.97%, 
+        #E1C441 7.2%,#E3C743 10.13%,
+        #E4C542 12.98%,#E6C744 15.99%,
+        #e5c643,#E7C845 19.52%, 
+        #E5C643 23.96%,#E6C945 30.43%,
+        #E3C743 36.49%,#E9CA48 42.49%, 
+        #EDCE49 49.35%,#F0D44C 55.42%,
+        #F4D84F 61.43%,#F6DA52 65.74%,
+        #F7DB53 72.23%,#F9DD55 77.43%,
+        #F9DF56 83.84%,#FAE157 91.52%, 
+        #F9DF56 97.87%);
+        margin-bottom: 190px;
+}
+
+.banner-content {
+    display: flex;
+    column-gap: 63px;
+}
+
+.banner__img {
+    display: flex;
+}
+
+.banner__img img {
+    object-fit: cover;
+}
+
+.banner__text {
+    padding: 130px 0;
+}
+
+.banner__title {
+    font-size: 112px;
+    font-weight: 900;
+    line-height: 137px;
+    margin-bottom: 33px;
+}
+
+.banner__desc {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+}
+
+.banner__date {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    margin-top: 40px;
+}
+
+.banner__date span {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+}
+
+.banner__btn-wrapper {
+    margin-top: 51px;
+}
+
+.banner__btn {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    background: black;
+    padding: 26px 51px 26px;
+    border-radius: 8px;
+}
+
+.banner__btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
